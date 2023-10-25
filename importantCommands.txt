@@ -1,0 +1,31 @@
+git push origin HEAD
+
+to remove a folder from git
+git rm -r --cached .dart_tool   
+
+keytool -list -v -keystore ~/Meetbok.keystore -alias Meetbok -storepass aaaaaaaa -keypass aaaaaaaa 
+
+This file has some imp commands as backup.
+
+
+for android
+export PATH="$PATH:/Users/ishtiaqahmed/Documents/development/flutter/bin" && flutter clean && flutter pub get && flutter run -d "sdk gphone64 arm64"
+
+for setting PATH
+export PATH="$PATH:/Users/ishtiaqahmed/Documents/development/flutter/bin"
+
+for flutter pod delete and rebuild
+rm ~/Pods && rm Podfile.lock && rm ~/.pub-cache/hosted/pub.dartlang.org/ && cd .. && rm pubspec.lock && export PATH="$PATH:/Users/ishtiaqahmed/Documents/development/flutter/bin" && flutter clean && flutter pub get && cd ios && pod deintegrate && pod repo update && pod install && flutter run
+
+
+ export PATH="$PATH:/Users/ishtiaqahmed/Documents/development/flutter/bin" && flutter clean && flutter pub get && cd ios && pod deintegrate && pod install
+ 
+for android release
+flutter build appbundle
+
+flutter build apk
+cd android && ./gradlew clean
+
+dart pub global activate stacked_cli && export PATH="$PATH":"$HOME/.pub-cache/bin" 
+stacked create view select_recipient
+stacked create service authentication
