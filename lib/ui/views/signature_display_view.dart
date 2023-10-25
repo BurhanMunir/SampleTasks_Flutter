@@ -24,7 +24,7 @@ class SignatureDisplayPage extends StatelessWidget {
                   signatureBytes!,
                 )
               : const Text("No Signatures"),
-        ), // Display the image using Image.memory
+        ),
       ),
     );
   }
