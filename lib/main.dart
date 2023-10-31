@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sample_tasks/ui/views/signature_view.dart';
-import 'package:sample_tasks/ui/views/webview_pdf.dart';
+import 'package:sample_tasks/ui/views/addrespage_alert.dart';
+import 'package:sample_tasks/ui/views/map_autocomplete.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WebViewPdf(),
+      home: AddressPageAlert(),
     );
   }
 }
